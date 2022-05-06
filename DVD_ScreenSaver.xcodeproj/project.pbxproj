@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF44D8822824FE3000623A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8812824FE3000623A0C /* AppDelegate.swift */; };
+		BF44D8842824FE3000623A0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8832824FE3000623A0C /* SceneDelegate.swift */; };
+		BF44D8862824FE3000623A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8852824FE3000623A0C /* ViewController.swift */; };
+		BF44D8892824FE3000623A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF44D8872824FE3000623A0C /* Main.storyboard */; };
+		BF44D88B2824FE3200623A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF44D88A2824FE3200623A0C /* Assets.xcassets */; };
+		BF44D88E2824FE3200623A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF44D88C2824FE3200623A0C /* LaunchScreen.storyboard */; };
+		BF44D8992824FE3300623A0C /* DVD_ScreenSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8982824FE3300623A0C /* DVD_ScreenSaverTests.swift */; };
+		BF44D8A32824FE3300623A0C /* DVD_ScreenSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8A22824FE3300623A0C /* DVD_ScreenSaverUITests.swift */; };
+		BF44D8A52824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8A42824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF44D8952824FE3300623A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF44D8762824FE3000623A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF44D87D2824FE3000623A0C;
+			remoteInfo = DVD_ScreenSaver;
+		};
+		BF44D89F2824FE3300623A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF44D8762824FE3000623A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF44D87D2824FE3000623A0C;
+			remoteInfo = DVD_ScreenSaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF44D87E2824FE3000623A0C /* DVD_ScreenSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVD_ScreenSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF44D8812824FE3000623A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF44D8832824FE3000623A0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF44D8852824FE3000623A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF44D8882824FE3000623A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF44D88A2824FE3200623A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF44D88D2824FE3200623A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF44D88F2824FE3200623A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF44D8942824FE3300623A0C /* DVD_ScreenSaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVD_ScreenSaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF44D8982824FE3300623A0C /* DVD_ScreenSaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVD_ScreenSaverTests.swift; sourceTree = "<group>"; };
+		BF44D89E2824FE3300623A0C /* DVD_ScreenSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVD_ScreenSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF44D8A22824FE3300623A0C /* DVD_ScreenSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVD_ScreenSaverUITests.swift; sourceTree = "<group>"; };
+		BF44D8A42824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVD_ScreenSaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF44D87B2824FE3000623A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44D8912824FE3300623A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44D89B2824FE3300623A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF44D8752824FE3000623A0C = {
+			isa = PBXGroup;
+			children = (
+				BF44D8802824FE3000623A0C /* DVD_ScreenSaver */,
+				BF44D8972824FE3300623A0C /* DVD_ScreenSaverTests */,
+				BF44D8A12824FE3300623A0C /* DVD_ScreenSaverUITests */,
+				BF44D87F2824FE3000623A0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF44D87F2824FE3000623A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF44D87E2824FE3000623A0C /* DVD_ScreenSaver.app */,
+				BF44D8942824FE3300623A0C /* DVD_ScreenSaverTests.xctest */,
+				BF44D89E2824FE3300623A0C /* DVD_ScreenSaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF44D8802824FE3000623A0C /* DVD_ScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				BF44D8812824FE3000623A0C /* AppDelegate.swift */,
+				BF44D8832824FE3000623A0C /* SceneDelegate.swift */,
+				BF44D8852824FE3000623A0C /* ViewController.swift */,
+				BF44D8872824FE3000623A0C /* Main.storyboard */,
+				BF44D88A2824FE3200623A0C /* Assets.xcassets */,
+				BF44D88C2824FE3200623A0C /* LaunchScreen.storyboard */,
+				BF44D88F2824FE3200623A0C /* Info.plist */,
+			);
+			path = DVD_ScreenSaver;
+			sourceTree = "<group>";
+		};
+		BF44D8972824FE3300623A0C /* DVD_ScreenSaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF44D8982824FE3300623A0C /* DVD_ScreenSaverTests.swift */,
+			);
+			path = DVD_ScreenSaverTests;
+			sourceTree = "<group>";
+		};
+		BF44D8A12824FE3300623A0C /* DVD_ScreenSaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF44D8A22824FE3300623A0C /* DVD_ScreenSaverUITests.swift */,
+				BF44D8A42824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift */,
+			);
+			path = DVD_ScreenSaverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF44D87D2824FE3000623A0C /* DVD_ScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF44D8A82824FE3300623A0C /* Build configuration list for PBXNativeTarget "DVD_ScreenSaver" */;
+			buildPhases = (
+				BF44D87A2824FE3000623A0C /* Sources */,
+				BF44D87B2824FE3000623A0C /* Frameworks */,
+				BF44D87C2824FE3000623A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVD_ScreenSaver;
+			productName = DVD_ScreenSaver;
+			productReference = BF44D87E2824FE3000623A0C /* DVD_ScreenSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF44D8932824FE3300623A0C /* DVD_ScreenSaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF44D8AB2824FE3300623A0C /* Build configuration list for PBXNativeTarget "DVD_ScreenSaverTests" */;
+			buildPhases = (
+				BF44D8902824FE3300623A0C /* Sources */,
+				BF44D8912824FE3300623A0C /* Frameworks */,
+				BF44D8922824FE3300623A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF44D8962824FE3300623A0C /* PBXTargetDependency */,
+			);
+			name = DVD_ScreenSaverTests;
+			productName = DVD_ScreenSaverTests;
+			productReference = BF44D8942824FE3300623A0C /* DVD_ScreenSaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF44D89D2824FE3300623A0C /* DVD_ScreenSaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF44D8AE2824FE3300623A0C /* Build configuration list for PBXNativeTarget "DVD_ScreenSaverUITests" */;
+			buildPhases = (
+				BF44D89A2824FE3300623A0C /* Sources */,
+				BF44D89B2824FE3300623A0C /* Frameworks */,
+				BF44D89C2824FE3300623A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF44D8A02824FE3300623A0C /* PBXTargetDependency */,
+			);
+			name = DVD_ScreenSaverUITests;
+			productName = DVD_ScreenSaverUITests;
+			productReference = BF44D89E2824FE3300623A0C /* DVD_ScreenSaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF44D8762824FE3000623A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BF44D87D2824FE3000623A0C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					BF44D8932824FE3300623A0C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BF44D87D2824FE3000623A0C;
+					};
+					BF44D89D2824FE3300623A0C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BF44D87D2824FE3000623A0C;
+					};
+				};
+			};
+			buildConfigurationList = BF44D8792824FE3000623A0C /* Build configuration list for PBXProject "DVD_ScreenSaver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF44D8752824FE3000623A0C;
+			productRefGroup = BF44D87F2824FE3000623A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF44D87D2824FE3000623A0C /* DVD_ScreenSaver */,
+				BF44D8932824FE3300623A0C /* DVD_ScreenSaverTests */,
+				BF44D89D2824FE3300623A0C /* DVD_ScreenSaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF44D87C2824FE3000623A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF44D88E2824FE3200623A0C /* LaunchScreen.storyboard in Resources */,
+				BF44D88B2824FE3200623A0C /* Assets.xcassets in Resources */,
+				BF44D8892824FE3000623A0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44D8922824FE3300623A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44D89C2824FE3300623A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF44D87A2824FE3000623A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF44D8862824FE3000623A0C /* ViewController.swift in Sources */,
+				BF44D8822824FE3000623A0C /* AppDelegate.swift in Sources */,
+				BF44D8842824FE3000623A0C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44D8902824FE3300623A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF44D8992824FE3300623A0C /* DVD_ScreenSaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44D89A2824FE3300623A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF44D8A32824FE3300623A0C /* DVD_ScreenSaverUITests.swift in Sources */,
+				BF44D8A52824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF44D8962824FE3300623A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF44D87D2824FE3000623A0C /* DVD_ScreenSaver */;
+			targetProxy = BF44D8952824FE3300623A0C /* PBXContainerItemProxy */;
+		};
+		BF44D8A02824FE3300623A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF44D87D2824FE3000623A0C /* DVD_ScreenSaver */;
+			targetProxy = BF44D89F2824FE3300623A0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF44D8872824FE3000623A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF44D8882824FE3000623A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF44D88C2824FE3200623A0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF44D88D2824FE3200623A0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF44D8A62824FE3300623A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF44D8A72824FE3300623A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF44D8A92824FE3300623A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DVD_ScreenSaver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frozenpizza.co.DVD-ScreenSaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF44D8AA2824FE3300623A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DVD_ScreenSaver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frozenpizza.co.DVD-ScreenSaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF44D8AC2824FE3300623A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frozenpizza.co.DVD-ScreenSaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVD_ScreenSaver.app/DVD_ScreenSaver";
+			};
+			name = Debug;
+		};
+		BF44D8AD2824FE3300623A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frozenpizza.co.DVD-ScreenSaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVD_ScreenSaver.app/DVD_ScreenSaver";
+			};
+			name = Release;
+		};
+		BF44D8AF2824FE3300623A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frozenpizza.co.DVD-ScreenSaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DVD_ScreenSaver;
+			};
+			name = Debug;
+		};
+		BF44D8B02824FE3300623A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frozenpizza.co.DVD-ScreenSaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DVD_ScreenSaver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF44D8792824FE3000623A0C /* Build configuration list for PBXProject "DVD_ScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF44D8A62824FE3300623A0C /* Debug */,
+				BF44D8A72824FE3300623A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF44D8A82824FE3300623A0C /* Build configuration list for PBXNativeTarget "DVD_ScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF44D8A92824FE3300623A0C /* Debug */,
+				BF44D8AA2824FE3300623A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF44D8AB2824FE3300623A0C /* Build configuration list for PBXNativeTarget "DVD_ScreenSaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF44D8AC2824FE3300623A0C /* Debug */,
+				BF44D8AD2824FE3300623A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF44D8AE2824FE3300623A0C /* Build configuration list for PBXNativeTarget "DVD_ScreenSaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF44D8AF2824FE3300623A0C /* Debug */,
+				BF44D8B02824FE3300623A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF44D8762824FE3000623A0C /* Project object */;
+}
