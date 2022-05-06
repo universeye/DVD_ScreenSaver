@@ -16,6 +16,8 @@
 		BF44D8992824FE3300623A0C /* DVD_ScreenSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8982824FE3300623A0C /* DVD_ScreenSaverTests.swift */; };
 		BF44D8A32824FE3300623A0C /* DVD_ScreenSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8A22824FE3300623A0C /* DVD_ScreenSaverUITests.swift */; };
 		BF44D8A52824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8A42824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift */; };
+		BF44D8B2282503A500623A0C /* DVDScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8B1282503A500623A0C /* DVDScene.swift */; };
+		BF44D8B42825044700623A0C /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8B32825044700623A0C /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BF44D89E2824FE3300623A0C /* DVD_ScreenSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVD_ScreenSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF44D8A22824FE3300623A0C /* DVD_ScreenSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVD_ScreenSaverUITests.swift; sourceTree = "<group>"; };
 		BF44D8A42824FE3300623A0C /* DVD_ScreenSaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVD_ScreenSaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF44D8B1282503A500623A0C /* DVDScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVDScene.swift; sourceTree = "<group>"; };
+		BF44D8B32825044700623A0C /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				BF44D8812824FE3000623A0C /* AppDelegate.swift */,
 				BF44D8832824FE3000623A0C /* SceneDelegate.swift */,
+				BF44D8B1282503A500623A0C /* DVDScene.swift */,
 				BF44D8852824FE3000623A0C /* ViewController.swift */,
+				BF44D8B32825044700623A0C /* UIColor+Ext.swift */,
 				BF44D8872824FE3000623A0C /* Main.storyboard */,
 				BF44D88A2824FE3200623A0C /* Assets.xcassets */,
 				BF44D88C2824FE3200623A0C /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF44D8862824FE3000623A0C /* ViewController.swift in Sources */,
+				BF44D8B2282503A500623A0C /* DVDScene.swift in Sources */,
+				BF44D8B42825044700623A0C /* UIColor+Ext.swift in Sources */,
 				BF44D8822824FE3000623A0C /* AppDelegate.swift in Sources */,
 				BF44D8842824FE3000623A0C /* SceneDelegate.swift in Sources */,
 			);
